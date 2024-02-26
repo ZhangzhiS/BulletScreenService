@@ -6,9 +6,7 @@
 
 ## 截图
 
-![login](assets/login.png)
-![home](assets/home.png)
-![settings](assets/settings.png)
+![login](assets/login.png)![home](assets/home.png)![settings](assets/settings.png)
 ![dm_mj](assets/dm_mj.png)
 
 ## 说明

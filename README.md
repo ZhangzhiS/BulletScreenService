@@ -7,8 +7,13 @@
 ## 截图
 
 <div align="center">
-	<img src="assets/login.png" alt="login" width="500">
-  <img src="assets/home.png" alt="home" width="500">
+	<img src="assets/login.png" alt="login" width="200">
+  <img src="assets/home.png" alt="home" width="300">
+	<img src="assets/settings.png" alt="settings" width="500">
+</div>
+
+<div align="center">
+	<img src="assets/dy_mj.png" alt="dy_mj" width="800">
 </div>
 
 ## 说明

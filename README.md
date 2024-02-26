@@ -6,9 +6,9 @@
 
 ## 截图
 
-<div style="display:inline-block">
-<img src='assets/login.png' alt="1">
-<img src='assets/home.png' alt="2">
+<div align="center">
+	<img src="assets/login.png" alt="login" width="500">
+  <img src="assets/home.png" alt="home" width="500">
 </div>
 
 ## 说明

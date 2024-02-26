@@ -1,0 +1,13 @@
+fastapi
+motor
+environs
+alembic
+uvicorn
+websockets
+websocket-client
+protobuf
+protobuf-inspector
+pydantic-settings
+httpx
+requests
+hashids

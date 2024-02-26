@@ -1,0 +1,122 @@
+# This project was generated with 0.3.15 using template: https://github.com/beeware/briefcase-template@v0.3.15
+[tool.briefcase]
+project_name = "DMPlay"
+bundle = "com.example"
+version = "0.0.5"
+url = "https://example.com/dmplay"
+license = "Other"
+author = "zhangzhi"
+author_email = "zhangzhi@example.com"
+
+[tool.briefcase.app.dmplay]
+formal_name = "DMPlay"
+description = "弹幕互动机"
+long_description = """More details about the app should go here.
+"""
+icon = "src/dmplay/resources/dmplay"
+sources = [
+    "src/dmplay",
+]
+test_sources = [
+    "tests",
+]
+
+requires = [
+    "pyside6~=6.2",
+    "loguru",
+    "requests",
+    "websocket-client",
+    "pydantic"
+]
+test_requires = [
+    "pytest",
+]
+
+[tool.briefcase.app.dmplay.macOS]
+requires = [
+    "std-nslog~=1.0.0"
+]
+
+[tool.briefcase.app.dmplay.linux]
+requires = [
+]
+
+[tool.briefcase.app.dmplay.linux.system.debian]
+system_requires = [
+]
+
+system_runtime_requires = [
+    # Derived from https://doc.qt.io/qt-6/linux-requirements.html
+    "libxrender1",
+    "libxcb-render0",
+    "libxcb-render-util0",
+    "libxcb-shape0",
+    "libxcb-randr0",
+    "libxcb-xfixes0",
+    "libxcb-xkb1",
+    "libxcb-sync1",
+    "libxcb-shm0",
+    "libxcb-icccm4",
+    "libxcb-keysyms1",
+    "libxcb-image0",
+    "libxcb-util1",
+    "libxkbcommon0",
+    "libxkbcommon-x11-0",
+    "libfontconfig1",
+    "libfreetype6",
+    "libxext6",
+    "libx11-6",
+    "libxcb1",
+    "libx11-xcb1",
+    "libsm6",
+    "libice6",
+    "libglib2.0-0",
+    "libgl1",
+    "libegl1-mesa",
+    "libdbus-1-3",
+    "libgssapi-krb5-2",
+]
+
+[tool.briefcase.app.dmplay.linux.system.rhel]
+system_requires = [
+]
+
+system_runtime_requires = [
+    "qt6-qtbase-gui",
+]
+
+[tool.briefcase.app.dmplay.linux.system.arch]
+system_requires = [
+    "qt6-base",
+]
+
+system_runtime_requires = [
+    "qt6-base",
+]
+
+[tool.briefcase.app.dmplay.linux.appimage]
+manylinux = "manylinux2014"
+
+system_requires = [
+# ?? FIXME
+]
+linuxdeploy_plugins = []
+
+[tool.briefcase.app.dmplay.linux.flatpak]
+flatpak_runtime = "org.kde.Platform"
+flatpak_runtime_version = "6.4"
+flatpak_sdk = "org.kde.Sdk"
+
+[tool.briefcase.app.dmplay.windows]
+requires = []
+
+# Mobile deployments
+[tool.briefcase.app.dmplay.iOS]
+supported = false
+
+[tool.briefcase.app.dmplay.android]
+supported = false
+
+# Web deployments
+[tool.briefcase.app.dmplay.web]
+supported = false

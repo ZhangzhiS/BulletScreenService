@@ -1,0 +1,15 @@
+{
+  "NICKNAME": "拯救不开心",
+  "USERNAME": "",
+  "PASSWORD": "",
+  "LIVE_URL_ID": "",
+  "AVATAR_URL": "https://wx.qlogo.cn/mmopen/vi_32/",
+  "REMBER_PASSWORD": false,
+  "ACCESS_TOKEN": "",
+  "SYS_USER_ID": 0,
+  "DOWNLOAD_PATH": "",
+  "PART_RULE": [
+    "按照底部提示词的格式，发送想要生成图案的提示词",
+    "通过赠送礼物获取排队积分，每次取排队第一的用户的提示词生成图片"
+  ]
+}

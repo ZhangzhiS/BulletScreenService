@@ -1,0 +1,38 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons/logo-wechat.png</file>
+    <file>icons/skull-sharp.png</file>
+    <file>icons/wifi-sharp-red.png</file>
+    <file>icons/wifi-sharp-green.png</file>
+    <file>icons/gift.png</file>
+    <file>icons/log-out.png</file>
+    <file>icons/people-sharp.png</file>
+    <file>icons/settings-sharp.png</file>
+    <file>icons/person-sharp.png</file>
+    <file>icons/warning-sharp.png</file>
+    <file>icons/power-sharp-green.png</file>
+    <file>icons/add.png</file>
+    <file>icons/checkmark-outline.png</file>
+    <file>icons/midjourney.png</file>
+    <file>icons/create-outline.png</file>
+    <file>icons/log-out-outline.png</file>
+    <file>icons/power-sharp.png</file>
+    <file>icons/close-sharp.png</file>
+    <file>icons/remove-sharp.png</file>
+    <file>icons/logo-tiktok.png</file>
+    <file>icons/logo-wechat.png</file>
+    <file>icons/skull-sharp.png</file>
+    <file>icons/wifi-sharp-red.png</file>
+    <file>icons/wifi-sharp-green.png</file>
+    <file>icons/gift.png</file>
+    <file>icons/log-out.png</file>
+    <file>icons/people-sharp.png</file>
+    <file>icons/settings-sharp.png</file>
+    <file>icons/person-sharp.png</file>
+    <file>icons/warning-sharp.png</file>
+  </qresource>
+  <qresource prefix="images">
+    <file>images/default.png</file>
+    <file>images/ava.jpg</file>
+  </qresource>
+</RCC>

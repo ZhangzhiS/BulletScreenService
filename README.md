@@ -13,7 +13,7 @@
 </div>
 
 <div align="center">
-	<img src="assets/dy_mj.png" alt="dy_mj" width="800">
+	<img src="assets/dm_mj.png" alt="dy_mj" width="800">
 </div>
 
 ## 说明

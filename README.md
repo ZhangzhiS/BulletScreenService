@@ -6,8 +6,10 @@
 
 ## 截图
 
-![login](assets/login.png)![home](assets/home.png)![settings](assets/settings.png)
-![dm_mj](assets/dm_mj.png)
+<div style="display:inline-block">
+<img src='assets/login.png' alt="1">
+<img src='assets/home.png' alt="2">
+</div>
 
 ## 说明
 
